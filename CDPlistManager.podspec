@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Roman Luxor" => "9DGRoman@gmail.com" }
   s.source       = { 
-		      :git => "https://github.com/Nuclominus/FileManager.git"
+		      :git => "https://github.com/Nuclominus/FileManager.git", :tag => "0.0.1"
 		      
   }
   
