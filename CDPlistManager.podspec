@@ -4,12 +4,14 @@ Pod::Spec.new do |s|
   s.summary      = "Objective-c class for working with plist."
   s.homepage     = "https://github.com/Nuclominus/FileManager"
 
-   s.license      = 'MIT (example)'
-   s.author       = { "Nuclominus" => "9DGRoman@gmail.com" }
-   s.source       = { :git => "https://github.com/Nuclominus/FileManager.git", :tag=>"0.1" }
-   s.platform     = :ios, '3.2'
-
-
+  s.license      = 'MIT (example)'
+  s.author       = { "Roman Luxor" => "9DGRoman@gmail.com" }
+  s.source       = { 
+		      :git => "https://github.com/Nuclominus/FileManager.git",
+		      :tag => "0.1" 
+  }
+  
+  s.platform     = :ios, '3.2'
   s.source_files = '*.{h,m}'
   s.requires_arc = true
 
