@@ -6,10 +6,7 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Roman Luxor" => "9DGRoman@gmail.com" }
-  s.source       = { 
-		      :git => "https://github.com/Nuclominus/FileManager.git", :tag => "0.0.1"
-		      
-  }
+ s.source       = { :git => "https://github.com/Nuclominus/FileManager.git",  :commit => "e23e92f1ce6a088eba70db0c0901974ad750393d" }
   
   s.platform     = :ios, '3.2'
   s.source_files = '*.{h,m}'
